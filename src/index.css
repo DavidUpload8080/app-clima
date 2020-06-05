@@ -1,0 +1,51 @@
+.bordes-cards:hover{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    cursor: pointer;
+}
+
+.ancho-card{
+    width: 100% !important;
+    min-width: 100px;
+}
+
+h1 {
+    display:inline;
+    font-size: 2em;
+}
+h1 span {
+    line-height: 3.25em;
+    margin-bottom: -10em;
+    font-size: 0.5em;
+}
+
+
+/* @media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+ 
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 4;
+    }
+} */
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
